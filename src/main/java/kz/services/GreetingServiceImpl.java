@@ -1,4 +1,4 @@
-package kz.zhelezyaka.didemo.services;
+package kz.services;
 
 import org.springframework.stereotype.Service;
 
