@@ -1,6 +1,6 @@
 package kz.zhelezyaka.didemo.controllers;
 
-import kz.zhelezyaka.didemo.services.GreetingService;
+import kz.services.GreetingService;
 import org.springframework.stereotype.Controller;
 
 @Controller
