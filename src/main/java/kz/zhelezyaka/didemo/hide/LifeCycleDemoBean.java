@@ -1,4 +1,4 @@
-package kz.zhelezyaka.didemo;
+package kz.zhelezyaka.didemo.hide;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.*;

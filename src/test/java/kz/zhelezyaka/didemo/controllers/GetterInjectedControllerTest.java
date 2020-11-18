@@ -1,6 +1,6 @@
 package kz.zhelezyaka.didemo.controllers;
 
-import kz.services.GreetingServiceImpl;
+import kz.zhelezyaka.didemo.services.GreetingServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
