@@ -1,4 +1,4 @@
-package kz.services;
+package kz.zhelezyaka.didemo.services;
 
 public interface GreetingRepository {
     String getEnglishGreeting();

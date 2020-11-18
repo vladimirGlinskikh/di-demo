@@ -1,5 +1,6 @@
-package kz.zhelezyaka.didemo;
+package kz.zhelezyaka.didemo.hide;
 
+import kz.zhelezyaka.didemo.hide.LifeCycleDemoBean;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 

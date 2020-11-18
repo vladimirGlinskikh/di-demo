@@ -10,7 +10,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"kz.services", "kz.zhelezyaka.didemo"})
+//@ComponentScan(basePackages = {"kz.zhelezyaka.didemo.services", "kz.zhelezyaka.didemo"})
 public class DiDemoApplication {
 
     public static void main(String[] args) {
