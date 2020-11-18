@@ -1,21 +1,21 @@
-package kz.services;
+package kz.zhelezyaka.didemo.services;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
-@Service
+/*@Service
 @Primary
-@Profile("de")
-public class PrimaryGermanGreetingService implements GreetingService {
+@Profile("en")*/
+public class PrimaryGreetingService implements GreetingService {
     private GreetingRepository greetingRepository;
 
-    public PrimaryGermanGreetingService(GreetingRepository greetingRepository) {
+    public PrimaryGreetingService(GreetingRepository greetingRepository) {
         this.greetingRepository = greetingRepository;
     }
 
     @Override
     public String sayGreeting() {
-        return greetingRepository.getGermanGreeting();
+        return greetingRepository.getEnglishGreeting();
     }
 }
