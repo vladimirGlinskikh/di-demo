@@ -3,3 +3,17 @@ kz:
     username: Vladimir Glinskikh
     password: somePassword
     url: someUrl
+
+---
+spring:
+  profiles: de
+kz:
+  jms:
+    username: Vladimir Glinskikh****IN**GERMAN
+
+---
+spring:
+  profiles: ru
+kz:
+  jms:
+    username: Vladimir Glinskikh****IN**RUSSIAN
