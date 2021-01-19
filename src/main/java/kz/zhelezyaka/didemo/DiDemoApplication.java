@@ -18,17 +18,12 @@ public class DiDemoApplication {
     public static void main(String[] args) {
         ApplicationContext ctx = SpringApplication.run(DiDemoApplication.class, args);
 
-        MyController controller = (MyController) ctx.getBean("myController");
+        //MyController controller = (MyController) ctx.getBean("myController");
 
         FakeDataSource fakeDataSource = ctx.getBean(FakeDataSource.class);
         System.out.println(fakeDataSource.getUser());
 
-        FakeJmsBroker fakeJmsBroker = (FakeJmsBroker) ctx.getBean(FakeJmsBroker.class);
-        System.out.println(fakeJmsBroker.getPassword());
-
-//        System.out.println(controller.hello());
-//        System.out.println(ctx.getBean(PropertyInjectedController.class).sayHello());
-//        System.out.println(ctx.getBean(GetterInjectedController.class).sayHello());
-//        System.out.println(ctx.getBean(ConstructorInjectedController.class).sayHello());
+        FakeJmsBroker fakeJmsBroker = ctx.getBean(FakeJmsBroker.class);
+        System.out.println(fakeJmsBroker.getUsername());
     }
 }
